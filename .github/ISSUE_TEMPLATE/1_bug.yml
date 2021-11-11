@@ -1,0 +1,38 @@
+name: Bug report
+description: Report an error or unexpected behaviour
+# title:
+labels: [bug]
+assignees: [paolobrasolin]
+
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue reporting your problem already exists.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Current behaviour
+    description: What are you experiencing?
+- type: textarea
+  attributes:
+    label: Expected behaviour
+    description: What did you expect to happen?
+- type: textarea
+  attributes:
+    label: Steps to reproduce
+    description: What steps can be followed reproduce your experience?
+    placeholder: |
+      1. In this environment...
+      2. With this configuration...
+      3. I run this...
+      4. I see this...
+- type: textarea
+  attributes:
+    label: Additional context
+    description: |
+      Links, references, code, logs, screenshots... Anything giving us more context will help!
+
+      Tip: You can attach images and other files by clicking this area to highlight it and then dragging them in.

@@ -1,0 +1,33 @@
+name: Support request
+description: Request some guidance or clarification
+# title:
+labels: [documentation]
+assignees: [paolobrasolin]
+
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue answering your question already exists.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Original goal
+    description: What were you trying to accomplish before getting stuck?
+- type: textarea
+  attributes:
+    label: Current impasse
+    description: What have you tried to get unstuck and how did it fail?
+- type: textarea
+  attributes:
+    label: Lacking resources
+    description: Have you read the project documentation and found it insufficient or confusing?
+- type: textarea
+  attributes:
+    label: Additional context
+    description: |
+      Links, references, code, logs, screenshots... Anything giving us more context will help!
+
+      Tip: You can attach images and other files by clicking this area to highlight it and then dragging them in.

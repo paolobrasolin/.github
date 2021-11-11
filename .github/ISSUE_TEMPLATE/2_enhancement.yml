@@ -1,0 +1,35 @@
+name: Feature suggestion
+description: Suggest an improvement or new functionality
+# title:
+labels: [enhancement]
+assignees: [paolobrasolin]
+
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue suggesting your idea already exists.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Original problem
+    description: What is the problem your idea arose from?
+    placeholder: |
+      I'm always frustrated when...
+- type: textarea
+  attributes:
+    label: Proposed solution
+    description: What do you want to happen to solve the problem?
+- type: textarea
+  attributes:
+    label: Alternatives considered
+    description: Have you considered any alternative solutions?
+- type: textarea
+  attributes:
+    label: Additional context
+    description: |
+      Links, references, code, logs, screenshots... Anything giving us more context will help!
+
+      Tip: You can attach images and other files by clicking this area to highlight it and then dragging them in.
